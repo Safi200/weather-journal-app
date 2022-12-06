@@ -8,8 +8,8 @@
 }
 
 :root {
-    --main-color: #242582;
-    --secondary-color: #F64c72;
+    --main-color: #4158D0;
+    --secondary-color: #C850C0;
     --hover-color: #2F2FA2;
     --text-color: white;
 }
@@ -93,7 +93,7 @@ body {
     -moz-border-radius: 5px;
     -ms-border-radius: 5px;
     -o-border-radius: 5px;
-    caret-color: #F64c72;
+    caret-color: var(--secondary-color);
     color: var(--text-color);
     resize: none;
 }
@@ -114,7 +114,7 @@ body {
 .app .inputs-holder button {
     width: 500px;
     padding: 10px;
-    background-image: linear-gradient(45deg, #242582, #F64c72);
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
     border: 1px solid rgba(0, 0, 0, 0.945);
     cursor: pointer;
     border-radius: 5px;
@@ -141,7 +141,7 @@ body {
     position: relative;
     padding: 20px;
     background-color: var(--hover-color);
-    text-transform: uppercase;
+    text-transform:capitalize;
     width: 500px;
     left: 50%;
     transform: translateX(-50%);

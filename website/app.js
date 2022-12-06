@@ -8,7 +8,6 @@ let dateInst = new Date();
 let date = `${dateInst.getDay() + 4}.${dateInst.getMonth() + 1}.${dateInst.getFullYear()}`;
 
 
-
 const performAction = async () => {
     // get zipCode And feelings and generate date
     const zipCode = document.querySelector("#zip").value;
@@ -36,9 +35,9 @@ const performAction = async () => {
 
 
     // update UI dynamically
-    document.getElementById("temp").innerHTML = `temperature: ${data2.temp}&deg;C`;
-    document.getElementById("date").textContent = `Date: ${data2.date}`;
-    document.getElementById("content").textContent = `Feelings: ${data2.feelings}`;
+    document.getElementById("temp").innerHTML = `temperature:  ${data2.temp}&deg;C`;
+    document.getElementById("date").textContent = `Date:  ${data2.date}`;
+    document.getElementById("content").textContent = `Feelings:  ${data2.feelings}`;
 
 }
 

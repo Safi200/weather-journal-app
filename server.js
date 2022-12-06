@@ -28,7 +28,7 @@ const cors = require("cors");
 app.use(cors());
 
 app.listen(port , () => {
-    console.log(`Server is running`);
+    console.log(`Server is running https://localhost:${port}`);
 });
 
 app.post(`/save-data`, (req, res) => {
